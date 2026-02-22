@@ -1,0 +1,13 @@
+def clossest_to_300():
+    num1 = int(input("Enter first number:"))
+    num2 = int(input("Enter second number:"))
+    num3 = int(input("Enter third number:"))
+    
+    if abs(300 - num1) < abs(300 - num2) and abs(300 - num1) < abs(300 - num3):
+        print(f"{num1}is the clossest to 300,")
+    elif abs(300 - num2) < abs(300 - num1) and abs(300 - num2) < abs(300 - num3):
+        print(f"{num2} is the clossest to 300.")
+    else:
+        print(f"{num3} is the clossest to 300.")
+    return
+clossest_to_300()
